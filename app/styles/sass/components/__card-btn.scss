@@ -1,0 +1,20 @@
+.card-btn {
+    margin-top: auto;
+    color: var(--color-light);
+    text-transform: uppercase;
+    background-color: var(--color-primary);
+    border: 2px solid var(--dark-violet);
+    box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+
+    &:hover {
+        background-color: inherit;
+        border: 2px solid var(--dark-violet);
+        color:  var(--color-primary);
+    }
+
+    &:checked {
+        background-color: inherit;
+        border: 3px solid var(--dark-violet);
+        color:  var(--color-primary);
+    }
+}

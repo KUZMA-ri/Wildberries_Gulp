@@ -1,0 +1,11 @@
+.image-slider__image {
+    text-align: center; 
+    margin: 0 20px; 
+}
+
+.image-slider__image img {
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    object-fit: cover;
+}

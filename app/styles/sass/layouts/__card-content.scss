@@ -1,0 +1,16 @@
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card-title {
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}

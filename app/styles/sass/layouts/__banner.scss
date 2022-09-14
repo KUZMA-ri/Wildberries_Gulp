@@ -1,0 +1,17 @@
+.banner {
+  max-width: 100%;
+  position: relative;
+  background-color: var(--color-light);
+  border-radius: 20px 20px 0 0;
+  padding: 30px 0;
+
+  &__container {
+    overflow: hidden;
+  }
+
+  &__pagination {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+  }
+}

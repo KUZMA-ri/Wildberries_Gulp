@@ -1,0 +1,59 @@
+/* ------------------------------------------------------------------------ */
+/* footer start */
+/* ------------------------------------------------------------------------ */
+.footer {
+  padding: 30px 0;
+  background-color: var(--color-primary);
+
+    &__row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__col {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__title {
+      font-family: "Playfair Display";
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--color-light);
+      margin-bottom: 30px;
+      margin-top: 20px;
+    }
+
+    &__link {
+      font-family: "Playfair Display";
+      font-size: 18px;
+      color: var(--color-light);
+      opacity: 0.7;
+      margin-bottom: 20px;
+      transition: all 0.2s;
+
+          &:hover {
+            color: var(--color-light);
+            opacity: 1;
+          }
+    }
+
+    &__copy-text {
+      text-align: center;
+      margin-top: 40px;
+      font-family: "Playfair Display";
+      font-size: 16px;
+      text-transform: uppercase;
+      color: var(--color-light);
+      opacity: 0.8;
+
+      &::before {
+        content: "";
+        display: block;
+        border: 1px solid var(--color-light);
+        background-color: var(--color-light);
+        opacity: 0.8;
+        margin-bottom: 25px;
+      }
+    }
+}

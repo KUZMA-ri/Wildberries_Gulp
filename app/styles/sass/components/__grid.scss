@@ -1,0 +1,26 @@
+.cards {
+    background-color: var(--color-light);
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 calc(var(--gutter) * -1);
+    }
+}
+
+.card {
+    width: calc(100% / 12 * 4 - var(--gutter) * 2);
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: var(--gutter);
+    margin-right: var(--gutter);
+    margin-bottom: var(--gutter);
+
+        @include breakpoint(md) {
+            width: calc(100% / 12 * 6 - var(--gutter) * 2);
+        }
+
+        @include breakpoint(sm) {
+            width: calc(100% / 12 * 12 - var(--gutter) * 2);
+        }
+    }
